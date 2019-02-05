@@ -6,14 +6,27 @@ html {
   font-family: Helvetica;
 }
 
-/* header */
+/* banner content container */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-top: 0;
+}
+
+/* header banner */
 
 header {
   display: flex;
   align-items: center;
   width: 960px;
-  margin: 1rem auto;
-  padding: 0;
+  padding: auto;
+  margin-top: 1rem;
   background-color: cadetblue;
   padding: 1rem;
 }
@@ -33,4 +46,19 @@ header h4 {
 nav span {
   margin-left: 2rem;
   color: white;
+}
+
+/* main banner */
+
+.slogan-container {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 10rem;
+  margin-left: 500px;
 }
