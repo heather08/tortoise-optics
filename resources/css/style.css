@@ -62,3 +62,25 @@ nav span {
   margin-top: 10rem;
   margin-left: 500px;
 }
+
+/* service banner */
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 8rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+
+.service h4 {
+  text-align: center;
+
+}
